@@ -6,6 +6,7 @@ import Footer from "./Footer";
 import { HomeScreen } from "./HomeScreen";
 import About from "./component/About";
 import CryptoTable from "./component/CryptoTable";
+import Policies from "./component/Policies";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomeScreen />} />
           <Route path="/market" element={<CryptoTable />} />
+          <Route path="/policy" element={<Policies />} />
         </Routes>
       </MainContent>
       <About />

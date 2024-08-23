@@ -1,36 +1,48 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-4 p-5">
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 ">
-        <div className="text-xl text-white">
-          <h1 className="font-bold mb-4">Media</h1>
-          <hr />
-          <h5>Annoucement</h5>
-          <p>Listing Service</p>
-          <p>Conciergse</p>
-          <p>Languages</p>
-          <p>Support</p>
+    <footer className="bg-gray-950 flex justify-center items-center text-white py-4  p-5">
+      <div className="grid grid-cols-1 md:grid-cols-3 w-full gap-4 ">
+        <div className="text-xl font-serif text-white">
+          <h1 className="font-bold mb-4 py-2">Media</h1>
+          <p className="h-1 w-[50%] bg-orange-600 mt-2"></p>
+          <h5 className="py-2">Annoucement</h5>
+          <p className="py-2">Listing Service</p>
+          <a href="https://chambitweb.vercel.app">
+            <p>Conciergse</p>
+          </a>
+          <p className="py-2">Languages</p>
+          <p className="py-2">Support</p>
         </div>
-        <div className=" text-xl text-white ">
-          <h1 className="mb-4 font-bold">Services</h1>
-          <hr />
-          <h5>P2p</h5>
-          <p>Spot</p>
-          <p>Swap</p>
-          <p>Airdrop</p>
-          <p>Market</p>
-          <p>Policies</p>
-          <p>Games</p>
-          <p>Wallet</p>
+        <div className=" text-xl font-serif text-white">
+          <h1 className="mb-4 font-bold py-2">Services</h1>
+          <p className="h-1 w-[50%] bg-orange-600 mt-2"></p>
+          <a href="https://chambbit.com/pp">
+            <h5 className="py-2">P2p</h5>
+          </a>
+          <a href="https://chambbit.com/spot?pair=CAMBS/USDT">
+            <p className="py-2">Spot</p>
+          </a>
+          <a href="https://chambbit.com/swap">
+            <p className="py-2">Swap</p>
+          </a>
+          <p className="py-2">Airdrop</p>
+          <p className="py-2">Market</p>
+          <Link to="/policy">
+            <p className="py-2">Policies</p>
+          </Link>
+          <p className="py-2">Games</p>
+          <p className="py-2">Wallet</p>
         </div>
 
-        <div className="text-xl text-white">
-          <h1 className="mb-4 font-bold">Policies</h1>
-          <hr />
-          <h5>Terms of use</h5>
-          <p>Privacy Policy</p>
-          <p>Legals</p>
-          <p>KYC Policies</p>
+        <div className="text-xl font-serif text-white">
+          <h1 className="mb-4 font-bold py-2">Policies</h1>
+          <p className="h-1 w-[50%] bg-orange-600 mt-2"></p>
+          <h5 className="py-2">Terms of use</h5>
+          <p className="py-2">Privacy Policy</p>
+          <p className="py-2">Legals</p>
+          <p className="py-2">KYC Policies</p>
         </div>
       </div>
     </footer>
