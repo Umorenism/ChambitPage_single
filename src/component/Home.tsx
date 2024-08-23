@@ -1,7 +1,5 @@
 import Market from "./Market";
 import SliderComponent from "./SliderComponent";
-// import Market from "./Market";
-// import About from "./About";
 
 const Home: React.FC = () => {
   return (
