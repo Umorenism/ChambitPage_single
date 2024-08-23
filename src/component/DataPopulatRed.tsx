@@ -1,6 +1,12 @@
+// import { useState } from "react";
 import { RiBtcFill } from "react-icons/ri";
 
 const DataPopulatRed = () => {
+  // const [addToCart, setAddToCart] = useState(0);
+
+  // const handleClick = () => {
+  //   setAddToCart(addToCart + 1);
+  // };
   return (
     <div className="bg-white w-full flex items-center justify-center py-1 mt-2 shadow-md rounded-md">
       <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center p-4">

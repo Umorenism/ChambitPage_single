@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { BsCartCheck } from "react-icons/bs";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,6 +21,12 @@ const Header = () => {
               Market
             </button>
           </Link>
+          <div className="relative">
+            <p className="h-5 w-5 text-sm rounded-full bg-red-600 text-white flex justify-center items-center absolute">
+              1
+            </p>
+            <BsCartCheck size={30} />
+          </div>
         </nav>
         <button
           className="md:hidden text-2xl"
