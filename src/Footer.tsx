@@ -10,7 +10,7 @@ const Footer = () => {
           <h5 className="py-2">Annoucement</h5>
           <p className="py-2">Listing Service</p>
           <a href="https://chambitweb.vercel.app">
-            <p>Conciergse</p>
+            <p>Concierge</p>
           </a>
           <p className="py-2">Languages</p>
           <p className="py-2">Support</p>
